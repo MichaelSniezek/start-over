@@ -14,18 +14,18 @@
 <nav>
   <p>StartOver</p>
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="app/templates/blog.hbs">Blog</a>
+    <li><a>{{#link-to 'home'}}Home{{/link-to}}</a></li>
+    <li><a>{{#link-to 'blog'}}Blog{{/link-to}}</a>
       <ul>
-        <li><a href="#">Book Suggestion</a> </li>
-        <li><a href="#">Meditation</a> </li>
-        <li><a href="#">Music</a> </li>
-        <li><a href="#">Planning</a> </li>
+        <li><a>Book Suggestion</a> </li>
+        <li><a>Meditation</a> </li>
+        <li><a>Music</a> </li>
+        <li><a>Planning</a> </li>
       </ul>
     </li>
-    <li><a href="app/templates/about.hbs">About</a></li>
-    <li><a href="app/templates/contact.hbs">Contact</a></li>
-    <li><a href="app/templates/login.hbs">Login</a></li>
+    <li><a>{{#link-to 'about'}}About{{/link-to}}</a></li>
+    <li><a>{{#link-to 'contact'}}Contact{{/link-to}}</a></li>
+    <li><a>{{#link-to 'login'}}Login{{/link-to}}</a></li>
   </ul>
 </nav>
 

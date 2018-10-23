@@ -2,16 +2,21 @@
   margin: 0;
   padding: 0;
 }
-body{
+
+body.home-bg{
+
+  width: auto;
+  height: 900px;
   background-image: url("https://images.pexels.com/photos/312839/pexels-photo-312839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
+  background-repeat: no-repeat;
 }
-nav{
+body nav{
   width: 100%;
   height: 50px;
   background-color: white;
 }
-nav p{
+body nav p{
   front-family: arial;
   color: #222;
   font-size: 24px;
@@ -19,25 +24,24 @@ nav p{
   float: left;
   padding: 0px 20px;
 }
-
-nav ul{
+body nav ul{
   display: block;
   float: left;
 }
-nav ul li{
+body nav ul li{
   float: left;
   list-style: none;
   position: relative;
 }
-nav ul li a{
+body nav ul li a{
   display: block;
-  front-family: arial;
+  font-family: arial;
   color: black;
   font-size: 14px;
-  padding: 22px 14px;
+  padding: 10px 14px;
   text-decoration: none;
 }
-nav ul li ul{
+body nav ul li ul{
   display: none;
   position: absolute;
   background-color: white;
@@ -45,16 +49,54 @@ nav ul li ul{
   border-radius: 0px 0px 4px 4px;
 
 }
-nav ul li:hover ul{
+body nav ul li:hover ul{
   display: block;
 }
-nav ul li ul li{
+body nav ul li ul li{
   width: 180px;
 }
-nav ul li ul li a{
+body nav ul li ul li a{
   padding: 8px 14px;
 
 }
-nav ul li ul li a:hover{
+body nav ul li ul li a:hover{
   background-color: lightblue;
+}
+
+body.contact-bg{
+  padding: 100px;
+  text-align: left;
+  width: auto;
+  height: 900px;
+  background-color: gray;
+  background-size: cover;
+
+}
+h1.contact-header{
+  text-align: center;
+  font-family: arial;
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+span.contact-span{
+  padding:250px;
+  text-align: center;
+  font-family: arial;
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
+body.about-bg{
+  text-align: center;
+  width: auto;
+  height: 900px;
+  background-color: gray;
+  background-size: cover;
+}
+h1.about-header{
+  padding-top: 100px;
+  padding-right: 100px;
+  text-align: center;
+
 }

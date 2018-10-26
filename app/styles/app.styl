@@ -65,16 +65,14 @@ body nav ul li ul li a{
 body nav ul li ul li a:hover{
   background-color: lightblue;
 }
-a.login{
-  width: auto;
 
-}
+  /* Contact Page */
 
 body.c-bg{
   padding: 100px;
   text-align: left;
   width: auto;
-  height: max-content;
+  height:900px;
   background-image: url("https://digitalsynopsis.com/wp-content/uploads/2017/03/beautiful-color-gradients-backgrounds-078-cochiti-lake.png");
   background-size: cover;
 
@@ -114,16 +112,16 @@ input.email, select {
   box-sizing: border-box;
 }
 input.comment, select {
-   width: 100%;
-   padding: 12px 20px;
-   margin: 8px 0px;
-   display: inline-block;
-   border: 1px solid #ccc;
-   border-radius: 4px;
-   box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 
- }
-input[type=submit] {
+}
+input.c-submit {
   width: 100%;
   background-color: #4CAF50;
   color: white;
@@ -134,7 +132,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input.c-submit:hover {
   background-color: #45a049;
 }
 body.a-bg{
@@ -168,127 +166,63 @@ h3.a3-header{
   text-decoration: none;
 }
 
-/* Login Button*/
-
-body {font-family: Arial, Helvetica, sans-serif;}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
+/* Login Page */
+body.l-bg {
+  padding: 100px;
+  text-align: left;
   width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
+  height: 900px;
+  background-image: url("https://digitalsynopsis.com/wp-content/uploads/2017/03/beautiful-color-gradients-backgrounds-078-cochiti-lake.png");
+  background-size: cover;
 }
-
-/* Center the image and position the close button */
-.imgcontainer {
+h1.l-header{
   text-align: center;
-  margin: 24px 0px 0;
-  position: relative;
+  font-family: arial;
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+div.l-container{
+    width: auto;
+    height: 400px;
+    text-align center;
+    background-color: rgba(52,73,94,0.8);
+    padding-top: 60px
+    border-radius 4px;
+    margin:0px;
+}
+img.l-icon{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 35px;
+  width: 150px;
+
+ }
+input.username,input[type="password"] {
+  width: 300px
+  height:45px
+  text-align center
+  font-size: 18px
+  margin-bottom: 20px
+  background: #fff
 }
 
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 20px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: center; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0px;
-  top: 0;
-  width: 50%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-  padding-left: 100px;
+.btn-login{
+  padding:15px 30px
+  color: #FFF
+  background-color: #2ecc71
+  border:none
+  border-radius:4px
+  border-bottom:4px solid #27ae60
 
 }
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+a.l-forgot{
+  color: #FFF
+  text-decoration none
+  font-family sans-serif
 }
+a.l-forgot:hover{
+  color: coral
+  font-weight: bold
 
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)}
-  to {-webkit-transform: scale(1)}
-}
-
-@keyframes animatezoom {
-  from {transform: scale(0)}
-  to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
 }
